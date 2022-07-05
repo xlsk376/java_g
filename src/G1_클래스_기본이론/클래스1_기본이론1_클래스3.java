@@ -18,7 +18,6 @@ public class 클래스1_기본이론1_클래스3 {
 		
 		// 문제 2) 4의 배수의 합 출력
 		// 정답 2) 264
-		
 		int total1 = 0;
 		for(int i = 0; i < t3.arr.length; i++) {
 			if(t3.arr[i] % 4 == 0) {
