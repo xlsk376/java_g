@@ -67,11 +67,40 @@ public class 클래스1_프로젝트_더하기게임문제 {
 		for(int i = 0; i < 3; i++) {
 			total += game.game[game.myIdx[i]];
 		}
+		
+		//중복없이
+//		int total1 = 0;
+//		int count = 0;
+//		while(true) {
+//			System.out.println("인덱스를 선택하세요");
+//			int sel = scan.nextInt();
+//			boolean check = false;
+//			int index = 0;
+//			for(int i = 0; i < g.myIdx.length; i++) {
+//				if(g.myIdx[i] == sel) {
+//					check = true;
+//					index = i;
+//				}
+//			}
+//			if(check == true) {
+//				System.out.println("중복된 인덱스 입니다");
+//			}else {
+//				g.myIdx[index] = sel;
+//				index += 1;
+//				total1 += g.game[g.myIdx[index]];
+//				count += 1;
+//			}
+//			if(count == 3) {
+//				break;
+//			}
+//		}
+		
 		if(game.total == total) {
 			System.out.println("정답");
 		}else {
 			System.out.println("땡");
 		}
+		
 		
 		
 	}

@@ -11,7 +11,6 @@ public class 클래스1_평가문제_문제4 {
 		int arr1[] = {1,2,3,4,5};
 		int arr2[] = {11,12,13,14,15};
 		
-		
 		Sample4 s4 = new Sample4();
 	
 		s4.arr[0] = arr1;

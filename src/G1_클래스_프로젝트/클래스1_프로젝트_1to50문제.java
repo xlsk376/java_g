@@ -69,6 +69,8 @@ public class 클래스1_프로젝트_1to50문제 {
 				if(min > front[i] && front[i] != 0) {
 					min = front[i];
 					index = i;
+				}else if(min == 18) {
+					front[i] = 0;
 				}
 			}
 			System.out.println(min);

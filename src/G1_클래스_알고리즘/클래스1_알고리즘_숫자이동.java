@@ -74,6 +74,41 @@ public class 클래스1_알고리즘_숫자이동 {
 				break;
 			}
 		}
+		
+		// 새로 작성
+//		int index = 0;
+//		for(int i = 0; i < gm.game.length; i++) {
+//			if(gm.game[i] == 2) {
+//				index = i;
+//			}
+//		}
+//		int me = index;
+//		while(true) {
+//			System.out.println(Arrays.toString(gm.game));
+//			System.out.println("숫자를 입력하세요");
+//			int n1 = scan.nextInt();
+//			if(n1 == 1) {
+//				if(me > 0 && gm.game[me-1] == 0) {
+//					gm.game[me] = 0;
+//					me -= 1;
+//					gm.game[me] = 2;
+//				}
+//			}else if(n1 == 2) {
+//				if(me < gm.game.length-1 && gm.game[me+1] == 0) {
+//					gm.game[me] = 0;
+//					me += 1;
+//					gm.game[me] = 2;
+//				}
+//			}else if(n1 == 3) { // 벽파괴
+//				if(gm.game[me-1] == 1) {
+//					gm.game[me-1] = 0;
+//				}else if(gm.game[me+1] == 1) {
+//					gm.game[me+1] = 0;
+//				}
+//			}else if(n1 == 0) {
+//				break;
+//			}
+//		}
 
 
 	}

@@ -41,8 +41,8 @@ public class 클래스배열1_알고리즘_과목2 {
 		stSize = to.length;
 		stList = new Student[stSize];
 		for(int i = 0; i < stSize; i++) {
-			stList[i] = new Student();
 			String[] to2 = to[i].split("/");
+			stList[i] = new Student();
 			stList[i].number = Integer.parseInt(to2[0]);
 			stList[i].name = to2[1];
 		}
@@ -54,8 +54,8 @@ public class 클래스배열1_알고리즘_과목2 {
 		sbSize = to3.length;
 		sbList = new Subject[sbSize];
 		for(int i = 0; i < sbSize; i++) {
-			sbList[i] = new Subject();
 			String to4[] = to3[i].split("/");
+			sbList[i] = new Subject();
 			sbList[i].studentNumber = Integer.parseInt(to4[0]);
 			sbList[i].subject = to4[1];
 			sbList[i].score = Integer.parseInt(to4[2]);
